@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../css/idc.css">
+  <title>Metallica Shop</title>
+  <link rel="shortcut icon" href="../images/favicon.ico">
+  <script src="../javascript/shop.js"></script>
+  <script src="../javascript/navigation.js"></script>
+</head>
+
+<body class="container">
+  <header class="navigation-container">
+    <nav id="side-navigation">
+      <ul class="side-navigation-container" id="side-menu">
+        <li>
+          <div class="menu-button" onclick="toggleSide()"><img src="../images/white-menu-icon.png"
+              alt="White menu icon">Menu</div>
+        </li>
+        <li class="side-navigation-item"><a href="../index.html">Home</a></li>
+        <li class="side-navigation-item"><a href="history.html">History</a></li>
+        <li class="side-navigation-item"><a href="style.html">Style</a></li>
+        <li class="side-navigation-item"><a href="legacy-influence.html">Legacy and Influence</a></li>
+        <li class="side-navigation-item"><a href="members.html">Band Members</a></li>
+        <li class="side-navigation-item"><a href="awards-nominations.html">Awards and Nominations</a></li>
+        <li class="side-navigation-item"><a href="discography.html">Discography</a></li>
+        <li class="side-navigation-item"><a href="shop.html">Shop</a></li>
+      </ul>
+    </nav>
+    <a id="logo" href="../index.html"><img src="../images/white-logo.svg" alt="Metallica white Logo"></a>
+    <a id="black-logo" href="../index.html"><img src="../images/black-logo.svg" alt="Metallica white Logo"></a>
+    <nav id="top-navigation">
+      <ul class="top-navigation-container">
+        <li class="top-navigation-item"><a href="awards-nominations.html">Awards and Nominations</a></li>
+        <li class="top-navigation-item"><a href="discography.html">Discography<img src="../images/vinyl.png"
+              alt="White vinyl icon" id="navigation-vinyl"></a></li>
+        <li class="top-navigation-item"><a href="shop.html">Shop<img src="../images/cart.png" alt="White cart icon"></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="shop-main">
+    <ul>
+      <li data-id="1" class="shop-list" data-title="Kill Em All vinyl" data-description="Metallicas first album">
+        <h2 class="shop-indent-text">Kill 'Em All</h2>
+        <img src="../images/KEA-shop.jpeg" alt="Kill 'Em All vinyl">
+        <p class="shop-indent-text">Price: &euro;19,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="2" class="shop-list" data-title="Ride the Lightning vinyl"
+        data-description="Metallicas second album">
+        <h2 class="shop-indent-text">Ride the Lighting</h2>
+        <img src="../images/RTL-shop.jpeg" alt="Ride the Lightning">
+        <p class="shop-indent-text">Price: &euro;19,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="3" class="shop-list" data-title="Master of Puppets vinyl" data-description="Metallicas third album">
+        <h2 class="shop-indent-text">Master of Puppets</h2>
+        <img src="../images/MOP-shop.jpeg" alt="Master of Puppets vinyl">
+        <p class="shop-indent-text">Price: &euro;19,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="4" class="shop-list" data-title="...And Justice for All vinyl"
+        data-description="Metallicas fourth album">
+        <h2 class="shop-indent-text">...And Justice for All</h2>
+        <img src="../images/AJFA-shop.jpg" alt="And Justice for All vinyl">
+        <p class="shop-indent-text">Price: &euro;19,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="5" class="shop-list" data-title="Metallica vinyl" data-description="Metallicas fifth album">
+        <h2 class="shop-indent-text">Metallica vinyl</h2>
+        <img src="../images/M-shop.jpeg" alt="Metallica vinyl">
+        <p class="shop-indent-text">Price: &euro;24,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="6" class="shop-list" data-title="Load vinyl" data-description="Metallicas sixth album">
+        <h2 class="shop-indent-text">Load vinyl</h2>
+        <img src="../images/L-shop.jpeg" alt="Load vinyl">
+        <p class="shop-indent-text">Price: &euro;19,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="7" class="shop-list" data-title="Reload vinyl" data-description="Metallicas seventh album">
+        <h2 class="shop-indent-text">Relaod vinyl</h2>
+        <img src="../images/RL-shop.jpeg" alt="Reload vinyl">
+        <p class="shop-indent-text">Price: &euro;19,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="8" class="shop-list" data-title="St. Anger vinyl" data-description="Metallicas eight album">
+        <h2 class="shop-indent-text">St. Anger vinyl</h2>
+        <img src="../images/STA-shop.jpeg" alt="St. Anger vinyl">
+        <p class="shop-indent-text">rice: &euro;24,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+
+      <li data-id="9" class="shop-list" data-title="Death Magnetic vinyl" data-description="Metallicas ninth album">
+        <h2 class="shop-indent-text">Death Magnetic</h2>
+        <img src="../images/DM-shop.jpeg" alt="Death Magnetic vinyl">
+        <p class="shop-indent-text">Price: &euro;24,99</p>
+        <p class="shop-indent-text">MP3 download card included</p>
+      </li>
+    </ul>
+  </main>
+
+  <section id="details">
+    <div id="details-background"></div>
+    <div id="details-dialog">
+      <h3 id="details-title">Test</h3>
+      <p id="details-description"></p>
+      <form action="shop.html" method="get">
+        <label>First & Last name:</label>
+        <input type="text" name="fullname" placeholder="Bob McDosBoy" required>
+        <label>Address:</label>
+        <input type="text" name="address" placeholder="2423 Moon 1, London" required>
+        <label>Phone Number:</label>
+        <input type="tel" name="phonenumber" placeholder="+31 678456123" required>
+        <label>E-mail:</label>
+        <input type="email" name="email" placeholder="bob@metallica.com" required>
+        <input id="checkout-button" type="submit" value="Make order">
+        <p id="details-cancel"><a href="#">I changed my mind</a></p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <address>
+      Contact me at:<br><a href="mailto:bob@metallica.com">bob@metallica.com</a>
+    </address>
+    <p><a href="https://en.wikipedia.org/wiki/Metallica"> &COPY; Metallica &mdash; 2019</a></p>
+  </footer>
+</body>
+
+</html>
